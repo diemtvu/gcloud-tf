@@ -1,6 +1,6 @@
 FROM google/cloud-sdk:alpine
 
-ENV TERRAFORM_VERSION 0.11.11
+ENV TERRAFORM_VERSION 0.12.2
 
 RUN wget --quiet https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip \
   && unzip terraform_${TERRAFORM_VERSION}_linux_amd64.zip \
